@@ -68,6 +68,35 @@ class Hello {
         System.out.println(pos);
         System.out.println(oper2);
 
+        //Reational Operators
+        float  x =4.5f;
+        float y = 3.14f;
+        float n = 6.8f;
+        float m = 9.1f;
+
+        boolean greater = x>y;
+        System.out.println(greater);//True
+        boolean less = x<y;
+        System.out.println(less);//false
+        boolean equal = x==y;
+        System.out.println(equal);//false
+        boolean gr_equal = x>=y;
+        System.out.println(gr_equal);//true
+        boolean less_equal = x<=y;
+        System.out.println(less_equal);//false
+        boolean not_equal = x!=y;
+        System.out.println(not_equal);//True
+
+        //Logical  Operator
+        boolean and = x>y&&m>n;
+        System.out.println(and);
+        boolean or = x>y||m<n;
+        System.out.println(or);
+        System.out.println(!and);
+
+
+
+
         
         System.out.println("hello world");
     }
