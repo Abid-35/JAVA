@@ -3,10 +3,10 @@
     { 
         // Data types 
 
-        byte by = 12;
-        short sh = 100;
-        int num = 129;  //Default
-        long  l = 12345l;
+        byte by = 12;//1 Byte
+        short sh = 100;//2 Byte
+        int num = 129;  //Default  , 3Byte
+        long  l = 12345l;//4 Byte
 
         float dec = 4.5f;
         double d = 5.8;  //Default
