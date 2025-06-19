@@ -45,5 +45,55 @@ public class IF{
         else{
             System.out.println("num3 is the greatest");
         }
+
+        //Ternary operator 
+        int a = 10, b = 20;
+        int max = (a > b) ? a : b;
+        System.out.println("Max is: " + max);// +max is used for  as the "MAx is "string  max is int so used for concatniation.
+
+        int n = 6 ;
+        String res = "";
+         res = (n%2==0)?"Even":"Odd";
+        System.out.println(res);
+
+        //Switch (Old)
+
+        int day =0;
+        switch(day){
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;    
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break; 
+            default:
+               System.out.println("Enter a Valid Data");                        
+        }
+
+        // New Switch The Updates are the instead of semicolun we can use arrowmark instead  of break keyword if u want use semicolumm then we need to use yield keyword 
+        // we can use for the strings also and return the values also 
+
+        String Day = "Monday";
+         String result = switch (Day){
+            case"sunday","Saturday"-> "8Am";
+            default-> "10 AM";
+        };
+        System.out.println(result);
+
     }
 }
