@@ -35,7 +35,7 @@ public class IF{
             }
         }
 
-        //Good Way
+        //Efficient  Way
         if(num>numb && num>num3){
             System.out.println("num is the graetest");
         }
@@ -49,7 +49,7 @@ public class IF{
         //Ternary operator 
         int a = 10, b = 20;
         int max = (a > b) ? a : b;
-        System.out.println("Max is: " + max);// +max is used for  as the "MAx is "string  max is int so used for concatniation.
+        System.out.println("Max is: " + max); // +max is used for  as the "MAx is "string  max is int so used for concatniation.
 
         int n = 6 ;
         String res = "";
