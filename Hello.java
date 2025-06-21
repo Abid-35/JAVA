@@ -43,6 +43,10 @@
         byte num2 = 30;
         int res = num1*num2;
         System.out.println(res);
+        byte nor = 30;
+        byte sor = 59;
+        int mulu = nor*sor;
+        System.out.println(mulu);
 
         //Arithematic Operators 
 
