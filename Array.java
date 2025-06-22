@@ -1,3 +1,8 @@
+class student {
+    int rollno ;
+    String name ;
+    int marks ;
+}
 public class Array{
     public static void main(String[] args){
 
@@ -59,6 +64,29 @@ public class Array{
   }
             System.out.println();
         }
+
+        // Array of Objects 
+        student s1 = new student();
+        student s2 = new student();
+        student s3 = new student();
+        s1.name="Abid";
+        s1.rollno = 35;
+        s1.marks = 90;
+        s2.name = "Manoj";
+        s2.rollno = 49;
+        s2.marks = 100;
+        s3.name="karthik";   
+        s3.rollno = 22;
+        s3.marks = 110;
+        student students[] = new student[3];
+        students[0] = s1;
+        students[1] = s2;
+        students[2] = s3;
+        for(int i =0; i<3 ;i++){
+            
+            System.out.println("The name is : "+ students[i].name );
+        }
+
 
     }
      
