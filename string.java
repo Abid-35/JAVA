@@ -18,5 +18,21 @@
          System.out.println(nor == sam);        // false → Compares Address so false.
          System.out.println(nor.equals(sam));   // true →  Same Data in both variables i.e Sydhani and Sydhani values are same
 
+         // String is object by class .
+        // It is immuttable in default .
+        // To Create Muttable strings we use String buffer and String builder.
+        StringBuffer way  = new StringBuffer("Simon");
+        System.out.println(way.capacity());
+        System.out.println(way.append(" ring"));
+        System.out.println(way.insert(5, " game "));
+
+
+
+        
+    
+
+
+
+
     }
 }
