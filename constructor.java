@@ -1,21 +1,23 @@
 class Human {
-    int age;
-    String name;
+    private int age;
+    private String name;
     
 
-    public Human(){
+    public Human(){  //Default Constructors
         age = 18;
         name = "abid";
+        System.out.println("In constructor Block");
     }
-        public Human( int age){
+   public Human( int age , String name){   // Parameterised Constructors
         this.age = age;
-        name = "abid";
+        this.name = name;
+        System.out.println("In constructor Block");
     }
 
-    public String getName(){
+    public String getName(){ //getters
         return name;
     }
-    public int getAge(){
+    public int getAge(){  //getters
             return  age;
     }
 }
@@ -27,8 +29,17 @@ public class constructor{
         System.out.println("Welcome To Constructors");
 
         Human obj = new Human();
-        Human obj1 = new Human(20);
+        Human obj1 = new Human(20,"Abid");
        System.out.println(obj1.getAge()); 
        System.out.println(obj.getAge()); 
+       new Human().getName();
     }
+
 }
+
+
+//Naming convention 
+//We use camelCase 
+//Var -> name , age , dateOfBirth;
+// Class and Interface -> Human , Device ,  Getname() i.e Constructor;
+// Constants -> PIE , GRAVITY CONSTANT;

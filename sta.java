@@ -3,18 +3,17 @@
     class device{
         int cost;
         String brand;
-         static String name; // we should access static variable in static method i.e we should refer then by class name;
+        static String name; // we should access static variable in static method i.e we should refer then by class name;
 
     public device(){
         cost = 1555;
         brand ="";
-        System.out.println("In Static block");
-
+        System.out.println("In Consturctor  block");
     }     
 
     static {
         name = "cam";
-        System.out.println("In Constructor block");
+        System.out.println("In static block");
     }
     
     public void show(){

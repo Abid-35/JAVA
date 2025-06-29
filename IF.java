@@ -90,8 +90,11 @@ public class IF{
 
         String Day = "Monday";
          String result = switch (Day){
-            case"sunday","Saturday"-> "8Am";
-            default-> "10 AM";
+
+            case"sunday","Saturday" -> "8Am";
+            default ->"10 AM";
+            // case"sunday","Saturday": yield  "8Am";
+            // default: yield "10 AM";
         };
         System.out.println(result);
 

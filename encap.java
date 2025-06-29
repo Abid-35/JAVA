@@ -14,26 +14,26 @@ class Human{
     // }
 
     // public void setname(  String name){
-    //     this.name = name;
+    //     this.name = name; this.name is instant varr and name is local var
     // }
 
     // public String getname(){
     //     return name;
     // }
 
-    public int getAge() {
+    public int getAge() {  //Getters
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(int age) {  //Setters
         this.age = age;
     }
 
-    public String getName() {
+    public String getName() {  //Getters
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(String name) {  //Setters
         this.name = name;
     }
 }
