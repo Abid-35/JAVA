@@ -18,9 +18,9 @@ public  class castingc{
         System.out.println("Welcome to casting");
          A obj = new B();
          obj.show();//Up Casting
-        //  obj.show2();
+        // //  obj.show2();
 
-         B obj1 = (B)obj;
+         B obj1 = (B) obj;
          obj1.show2();//Down Casting
 
  

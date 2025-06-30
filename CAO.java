@@ -64,7 +64,7 @@ public class CAO{
     //Instance (Object)	Real thing created from blueprint	new Calculator()
     //Reference Variable	Name that points to the object	calc
 
-    //Method Overriding 
+    //Method Overloadig
     //Creating same method with different no of the parameters and  different type 
 
     
