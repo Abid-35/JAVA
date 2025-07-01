@@ -12,3 +12,4 @@ public class lam{
     }}
 
     //Lambda Expression if it has only one statement then no need of cruly brackets and return keyword for expression.
+    // We can only use lmbda expression with functional interface(SAM).
