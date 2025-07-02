@@ -10,7 +10,7 @@ public class Arralist{
         num.add(6);
         num.add(10);
         System.out.println(num);
-        for(int n : num){
+        for(Object n : num){
             System.out.println(n);
         }
 
