@@ -9,6 +9,7 @@ public class Arralist{
         num.add(4);
         num.add(6);
         num.add(10);
+        num.add(2);
         System.out.println(num);
         for(Object n : num){
             System.out.println(n);
