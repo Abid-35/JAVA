@@ -20,7 +20,7 @@ class Student {
 public class comparator {
     public static void main(String[] args) {
 
-        Comparator<Student> com = (i, j) -> i.age > j.age ? 1 : -1;
+        Comparator<Student> com =  (i, j) -> i.age > j.age ? 1 : -1;
 
         List<Student> studs = new ArrayList<>();
         studs.add(new Student(21, "Abid"));
