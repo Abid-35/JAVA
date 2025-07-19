@@ -1,12 +1,13 @@
 public class tey {
     public static void main(String[] args) {
-        int[] arr = {10, 20, 30, 40};
-        int sum = 0;
+        int[] arr = {10, 25, 37, 4, 89, 2};
+        int max = arr[0];
 
-        for (int num : arr) {
-            sum += num;
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] > max)
+                max = arr[i];
         }
 
-        System.out.println("Sum = " + sum);
+        System.out.println("Largest element is: " + max);
     }
 }
