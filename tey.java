@@ -1,13 +1,12 @@
 public class tey {
     public static void main(String[] args) {
-        String str = "madam", rev = "";
+        int[] arr = {10, 20, 30, 40};
+        int sum = 0;
 
-        for (int i = str.length() - 1; i >= 0; i--)
-            rev += str.charAt(i);
+        for (int num : arr) {
+            sum += num;
+        }
 
-        if (str.equals(rev))
-            System.out.println(str + " is a palindrome.");
-        else
-            System.out.println(str + " is not a palindrome.");
+        System.out.println("Sum = " + sum);
     }
 }
