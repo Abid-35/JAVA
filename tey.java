@@ -1,12 +1,13 @@
-public class tey{
+public class tey {
     public static void main(String[] args) {
-        String original = "Java";
-        String reversed = "";
+        String str = "madam", rev = "";
 
-        for (int i = original.length() - 1; i >= 0; i--) {
-            reversed += original.charAt(i);
-        }
+        for (int i = str.length() - 1; i >= 0; i--)
+            rev += str.charAt(i);
 
-        System.out.println("Reversed: " + reversed);
+        if (str.equals(rev))
+            System.out.println(str + " is a palindrome.");
+        else
+            System.out.println(str + " is not a palindrome.");
     }
 }
