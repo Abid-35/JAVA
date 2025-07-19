@@ -86,6 +86,9 @@ public class Array{
             
             System.out.println("The name is : "+ students[i].name );
         }
+        for(student n : students){
+            System.out.println(n.name);
+        }
 
 
     }

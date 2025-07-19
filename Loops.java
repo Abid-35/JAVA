@@ -18,6 +18,7 @@ public class Loops {
         int n = 6;
         do{
             System.out.println("Hi My Cute Little Red Flags" + n );
+            n++;
         }while(n<=5);
 
         //For Loop

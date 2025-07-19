@@ -88,7 +88,7 @@ public class IF{
         // New Switch The Updates are the instead of semicolun we can use arrowmark instead  of break keyword if u want use semicolumm then we need to use yield keyword 
         // we can use for the strings also and return the values also 
 
-        String Day = "Monday";
+        String Day = "sunday";
          String result = switch (Day){
 
             case"sunday","Saturday" -> "8Am";
