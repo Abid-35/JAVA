@@ -1,13 +1,12 @@
-public class tey {
+public class tey{
     public static void main(String[] args) {
-        int n = 10, a = 0, b = 1;
+        String original = "Java";
+        String reversed = "";
 
-        System.out.print("Fibonacci Series: ");
-        for (int i = 1; i <= n; i++) {
-            System.out.print(a + " ");
-            int sum = a + b;
-            a = b;
-            b = sum;
+        for (int i = original.length() - 1; i >= 0; i--) {
+            reversed += original.charAt(i);
         }
+
+        System.out.println("Reversed: " + reversed);
     }
 }
