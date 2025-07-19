@@ -1,18 +1,13 @@
 public class tey {
     public static void main(String[] args) {
-        int num = 29;
-        boolean isPrime = true;
+        int n = 10, a = 0, b = 1;
 
-        for (int i = 2; i <= num / 2; i++) {
-            if (num % i == 0) {
-                isPrime = false;
-                break;
-            }
+        System.out.print("Fibonacci Series: ");
+        for (int i = 1; i <= n; i++) {
+            System.out.print(a + " ");
+            int sum = a + b;
+            a = b;
+            b = sum;
         }
-
-        if (isPrime)
-            System.out.println(num + " is a prime number.");
-        else
-            System.out.println(num + " is not a prime number.");
     }
 }
